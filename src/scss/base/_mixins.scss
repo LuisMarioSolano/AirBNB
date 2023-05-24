@@ -43,7 +43,7 @@
 
 @mixin scrollHorizontal {
     overflow-y: hidden;
-    overflow-x: scroll;
+    overflow-x: auto;
     scroll-snap-type: x mandatory;
 
     > * {
